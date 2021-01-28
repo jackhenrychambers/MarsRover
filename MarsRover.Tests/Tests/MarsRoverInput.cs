@@ -6,7 +6,7 @@ using static MarsRover.Constants.Exceptions;
 namespace MarsRover.Tests
 {
     [TestFixture]
-    public class MarsRoverShould
+    public class MarsRoverInput
     {
         [TestCase("10 10\n5 9 E\nLMLMLM", 10, 10, 5, 9, "E", "LMLMLM")]
         [TestCase("5 5\n0 0 N\nM", 5, 5, 0, 0, "N", "M")]
